@@ -107,3 +107,16 @@ span a:visited {
 .slider::-webkit-scrollbar-thumb:active {
     background-color: rgba(0, 0, 0, 0.9);
 }
+@media only screen and (max-width: 767px) {
+    /* Styles for mobile devices */
+    .project {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+    
+    .slider {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+}
